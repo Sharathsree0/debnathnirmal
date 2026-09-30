@@ -117,7 +117,7 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full font-sans">
       {/* Hero Section */}
-      <section className="relative text-white pt-24 pb-24 overflow-hidden flex items-center min-h-[70vh]">
+      <section className="relative text-white pt-24 pb-24 overflow-hidden flex items-center min-h-[80vh]">
         <video 
           ref={videoRef}
           muted 

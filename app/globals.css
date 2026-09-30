@@ -5,6 +5,19 @@
   --foreground: #171717;
 }
 
+@theme {
+  --color-blue-50: #f0f7fa;
+  --color-blue-100: #dceef5;
+  --color-blue-200: #bddfea;
+  --color-blue-300: #8ec7da;
+  --color-blue-400: #58a9c4;
+  --color-blue-500: #358ea8;
+  --color-blue-600: #2b718c;
+  --color-blue-700: #255c73;
+  --color-blue-800: #224d60;
+  --color-blue-900: #143445;
+  --color-blue-950: #0c2230;
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
