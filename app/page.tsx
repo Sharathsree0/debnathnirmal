@@ -11,7 +11,7 @@ export default function Home() {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [preloadedImages, setPreloadedImages] = useState<HTMLImageElement[]>([]);
   
-  const frameCount = 50; 
+  const frameCount = 161; 
 
   // 2. Preload Image Sequence for Canvas
   useEffect(() => {
